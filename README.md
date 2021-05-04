@@ -22,6 +22,8 @@ conda env update --file requirements.yml
 TODO
 
 ## Benchmarking
+
+### Generate data of desired size
 ```bash
 
 # Make the subsets of the data
@@ -29,6 +31,12 @@ TODO
 
 # Generate a file with commands used for benchmarking
 ./01.02-generate-commands-file.sh
+
+
+```
+
+### Run Benchmarking
+```bash
 
 # Benchmark Skbio Faith's PD
 ./01.03-par_timeout_skbio.sh
@@ -39,17 +47,12 @@ TODO
 # Aggregate the results
 ./01.05-process_results.sh
 
-# Make the benchmarking plot
-jupyter notebook
-# run through 01.06-create-faiths-pd-benchmarking-figure.ipynb
-
 ```
 
-### Generate data of desired size
-
-### Run Benchmarking
-
 ### Create benchmarking plot
+After the above steps have been completed, the benchmarking plot can be 
+recreated by running the `01.06-create-faiths-pd-benchmarking-figure.ipynb` 
+notebook.
 
 ### Benchmarking large table
 
