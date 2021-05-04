@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - unifrac=0.10.0
+  - scikit-bio=0.5.4
+  - biom-format
+  - scipy
+  - seaborn
+  - pip:
+      - iow
+      - numpy==1.19.2
