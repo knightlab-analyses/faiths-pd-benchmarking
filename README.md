@@ -8,13 +8,6 @@ TODO put instructions for how to install everything here
 ```bash
 conda create --yes -n faith-benchmark python=3.6 pip "numpy>=1.15" -c conda-forge
 conda activate faith-benchmark
-conda install -c conda-forge -c bioconda unifrac=0.10.0 scikit-bio=0.5.4 biom-format scipy seaborn
-pip install --upgrade-strategy only-if-needed iow
-
-
-# try again...
-conda create --yes -n faith-benchmark python=3.6 pip "numpy>=1.15" -c conda-forge
-conda activate faith-benchmark
 conda env update --file requirements.yml 
 ```
 
