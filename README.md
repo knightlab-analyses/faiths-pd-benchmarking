@@ -2,8 +2,8 @@
 Benchmarking speed and memory for fast calculation of Faith's PD
 
 ## Installation
-TODO put instructions for how to install everything here
-
+The installation of all packages needed for benchmarking requires 
+[`conda`](https://conda.io).
 
 ```bash
 conda create --yes -n faith-benchmark python=3.6 pip "numpy>=1.15" -c conda-forge
