@@ -48,13 +48,25 @@ recreated by running the `01.06-create-faiths-pd-benchmarking-figure.ipynb`
 notebook.
 
 ### Benchmarking large table
-
+The `benchmark/time_stacked_faith.py` script can be used with the large 
+table with the following command, if the path to table and tree are known.
+```bash
+python benchmark/time_stacked_faith.py <path to table> <path to tree>
+```
 
 ## Power Analysis for FINRISK
-
+The results of the power analysis can be recreated with the notebook: 
+`02.01-power-analysis-figure.ipynb`
 
 ## Phylogenetic Analysis
 
-### Age distributions
+### Faith's PD  distributions on metagenomics by Age
+The distributions of Faith's PD by Age group can recreated with the notebook:
+`03.01-plot-alpha-distributions.ipynb`
 
 ### Empress Visualization
+The Empress visualization can be created with the notebook `03.
+02-metagenomic-age-phylog-analysis.ipynb`. Note that a working installation
+of [Qiime2](https://qiime2.org/) with
+[Empress](https://github.com/biocore/empress) is need to reproduce the 
+visualization.
