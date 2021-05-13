@@ -11,9 +11,6 @@ conda activate faith-benchmark
 conda env update --file requirements.yml 
 ```
 
-## Get the data
-TODO
-
 ## Benchmarking
 
 ### Generate data of desired size
